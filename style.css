@@ -1,0 +1,17 @@
+h1#maintitle {
+    text-align: center;
+    border-color: orangered;
+    color:red;
+    animation: color-change 1s infinite;
+    
+}
+
+body {
+    background-color:orange;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: orangered; }
+    100% { color:black; }
+  }
