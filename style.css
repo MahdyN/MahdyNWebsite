@@ -3,7 +3,7 @@ h1#maintitle {
     border-color: orangered;
     color:red;
     animation: color-change 1s infinite;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -15,3 +15,23 @@ body {
     50% { color: orangered; }
     100% { color:black; }
   }
+
+  section.sectionstyle {
+      background-color: red;
+  }
+
+  h2.h2titlestyle {
+      color:orange;
+      text-decoration-line: underline;
+  }
+
+  p#aboutme {
+      color:orange;
+      text-align: center;
+      }
+
+ ul#interests {
+        color:orange;
+        
+        }
+
